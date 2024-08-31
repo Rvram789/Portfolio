@@ -1,0 +1,28 @@
+.contact-container {
+    margin : 4rem 0;
+    position: relative;
+}
+
+.contact-container h2 {
+    font-size: 10rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; /* Increased to 4rem */
+}
+
+
+.contact-content {
+    display: flex;
+    gap: 3rem;
+    padding-top: 1.5rem; /* Adds extra space below the heading */
+}
+
+@media(max-width:768px) {
+    .contact-content {
+        flex-direction: column-reverse;
+    }
+
+    .contact-container h2 {
+        font-size:1.3rem;
+        margin-bottom: 0rem;
+    }
+}
